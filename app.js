@@ -1,19 +1,21 @@
-const mon = "mon";
-const tue = "tue";
-const wed = "wed";
-const thu = "thu";
-const fri = "fri";
-const sat = "sat";
-const sun = "sun";
+const player = {
+  name: "Mjay",
+  points: 10,
+  fat: true,
+};
 
-const dayysOfWeek = [mon, tue, wed, thu, fri, sat, sun];
+console.log(player);
 
-// Get Item from Array
-console.log(dayysOfWeek);
+player.fat = false;
 
-// Add one more day to the array
-dayysOfWeek.push("Non");
+console.log(player);
 
-console.log(dayysOfWeek);
+player.lastName = "potato";
 
-// const nonsenese = [1, 2, "hello", false, null, true, undefined];
+console.log(player);
+
+player.points += 10;
+
+console.log(player);
+
+console.log(player["name"]);
