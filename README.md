@@ -1,4 +1,4 @@
-# JavaScript 를 이용하여 Log In / To DO List / Weather Info 기능 만들기
+# JavaScript 를 이용하여 Log In / To Do List / Weather Info 기능 만들기
 
 Local Storage를 통해 로그인, 투두리스트 정보를 저장합니다.
 
