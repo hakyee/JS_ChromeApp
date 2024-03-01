@@ -13,6 +13,8 @@ function onGeoOk(position) {
       weather.innerText = `${data.weather[0].main} / ${Math.round(
         data.main.temp
       )}`;
+      const text = document.createTextNode("\u00a0");
+      weather.appendChild(text);
     });
 }
 
